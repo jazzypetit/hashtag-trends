@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>해시태그 트렌드</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="top">
+    <div>
+      <h1>해시태그 트렌드</h1>
+      <p class="meta" id="meta">불러오는 중…</p>
+    </div>
+    <div class="controls">
+      <label>날짜 <select id="day"></select></label>
+      <label>플랫폼
+        <select id="platform">
+          <option value="all">전체</option>
+          <option value="instagram">Instagram</option>
+          <option value="tiktok">TikTok</option>
+        </select>
+      </label>
+      <button id="csv" type="button">CSV 내보내기</button>
+    </div>
+  </header>
+
+  <div id="banner" class="banner" hidden></div>
+  <nav id="tabs" class="tabs" role="tablist"></nav>
+
+  <main id="content"></main>
+
+  <template id="tpl">
+    <section class="stats" data-slot="stats"></section>
+
+    <section class="card" data-slot="ai-card">
+      <h2>Claude 요약</h2>
+      <p data-slot="summary"></p>
+      <div class="themes" data-slot="themes"></div>
+      <ol class="ai-keywords" data-slot="ai-keywords"></ol>
+    </section>
+
+    <div class="grid2">
+      <section class="card">
+        <h2>함께 쓰인 해시태그</h2>
+        <div class="chips" data-slot="tags"></div>
+      </section>
+      <section class="card">
+        <h2>캡션 키워드</h2>
+        <div class="chips" data-slot="words"></div>
+      </section>
+    </div>
+
+    <section class="card">
+      <h2>캡션 속 외부 링크</h2>
+      <ul class="links" data-slot="links"></ul>
+    </section>
+
+    <section class="card">
+      <div class="row">
+        <h2>게시글 <span class="muted" data-slot="post-count"></span></h2>
+        <input type="search" placeholder="캡션·작성자·키워드 검색" data-slot="search" />
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>플랫폼</th><th>게시일</th><th class="num">좋아요</th><th class="num">댓글</th><th class="num">조회</th><th>작성자</th><th>캡션</th></tr>
+          </thead>
+          <tbody data-slot="posts"></tbody>
+        </table>
+      </div>
+    </section>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>

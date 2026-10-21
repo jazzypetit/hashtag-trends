@@ -1,0 +1,12 @@
+{
+  "hashtags": ["말랑이", "다이어리꾸미기"],
+  "platforms": ["instagram", "tiktok"],
+  "days": 7,
+  "minLikes": 1000,
+  "maxPostsPerHashtag": 300,
+  "claude": {
+    "enabled": true,
+    "model": "claude-opus-5-5",
+    "maxPostsInPrompt": 60
+  }
+}

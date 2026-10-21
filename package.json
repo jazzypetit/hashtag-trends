@@ -1,0 +1,18 @@
+{
+  "name": "hashtag-trends",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "인스타그램·틱톡 해시태그 게시글을 매일 수집해 키워드와 URL을 추출하는 대시보드",
+  "scripts": {
+    "collect": "node scripts/collect.mjs",
+    "collect:sample": "node scripts/collect.mjs --sample",
+    "serve": "npx --yes serve@14.2.4 public -l 4173"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "latest"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
