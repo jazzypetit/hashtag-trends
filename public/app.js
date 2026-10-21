@@ -50,8 +50,10 @@ function currentPosts() {
 function render() {
   const d = state.data;
   const c = d.criteria;
-  $("#meta").textContent =
-    `${new Date(d.generatedAt).toLocaleString("ko-KR")} 수집 · 최근 ${c.days}일 신규 게시글 · 좋아요 ${fmt(c.minLikes)} 이상`;
+  const likes = typeof c.minLikes === "number"
+    ? `좋아요 ${fmt(c.minLikes)} 이상`
+    : "좋아요 " + Object.entries(c.minLikes).map(([pf, n]) => `${pf === "instagram" ? "Instagram" : "TikTok"} ${fmt(n)}`).join(" · ") + " 이상";
+  $("#meta").textContent = `${new Date(d.generatedAt).toLocaleString("ko-KR")} 수집 · 최근 ${c.days}일 신규 게시글 · ${likes}`;
 
   const banner = $("#banner");
   const notes = [];

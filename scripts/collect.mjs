@@ -16,6 +16,10 @@ const SAMPLE = process.argv.includes("--sample");
 const config = JSON.parse(await fs.readFile(path.join(ROOT, "config.json"), "utf8"));
 const now = new Date();
 const since = new Date(now.getTime() - config.days * 24 * 60 * 60 * 1000);
+// minLikes 는 숫자(전 플랫폼 공통) 또는 { instagram: 500, tiktok: 1000 } 형태
+const minLikesFor = (platform) =>
+  typeof config.minLikes === "number" ? config.minLikes : config.minLikes[platform] ?? 0;
+const minLikesLabel = config.platforms.map((pf) => `${pf} ${minLikesFor(pf)}+`).join(", ");
 
 if (!SAMPLE && !process.env.APIFY_TOKEN) {
   console.error("APIFY_TOKEN 환경변수가 필요합니다. (샘플로 보려면 --sample)");
@@ -26,7 +30,10 @@ const useClaude = config.claude?.enabled && (SAMPLE || process.env.ANTHROPIC_API
 const result = {
   generatedAt: now.toISOString(),
   sample: SAMPLE,
-  criteria: { days: config.days, minLikes: config.minLikes, since: since.toISOString() },
+  criteria: {
+    days: config.days,
+    minLikes: Object.fromEntries(config.platforms.map((pf) => [pf, minLikesFor(pf)])),
+    since: since.toISOString() },
   hashtags: [],
   errors: [],
 };
@@ -53,9 +60,9 @@ for (const rawTag of config.hashtags) {
   const byUrl = new Map(collected.map((p) => [p.url, p]));
   const posts = [...byUrl.values()]
     .filter((p) => p.postedAt && new Date(p.postedAt) >= since)
-    .filter((p) => (p.likes ?? 0) >= config.minLikes)
+    .filter((p) => (p.likes ?? 0) >= minLikesFor(p.platform))
     .sort((a, b) => (b.likes ?? 0) - (a.likes ?? 0));
-  console.log(`  필터 후 ${posts.length}건 (최근 ${config.days}일, 좋아요 ${config.minLikes}+)`);
+  console.log(`  필터 후 ${posts.length}건 (최근 ${config.days}일, 좋아요 ${minLikesLabel})`);
 
   // 플랫폼별 탈락 사유 (조건을 조정할 때 참고)
   const dropped = {};
@@ -67,7 +74,7 @@ for (const rawTag of config.hashtags) {
       noDate: all.filter((p) => !p.postedAt).length,
       older: all.filter((p) => p.postedAt && new Date(p.postedAt) < since).length,
       hiddenLikes: recent.filter((p) => p.likes == null).length,
-      lowLikes: recent.filter((p) => p.likes != null && p.likes < config.minLikes).length,
+      lowLikes: recent.filter((p) => p.likes != null && p.likes < minLikesFor(platform)).length,
     };
     console.log(`    ${platform} 탈락:`, JSON.stringify(dropped[platform]));
   }

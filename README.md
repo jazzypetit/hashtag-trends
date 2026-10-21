@@ -8,7 +8,7 @@ Claude가 해시태그별 트렌드 키워드를 요약합니다.
 GitHub Actions (매일 09:00 KST)
   └ scripts/collect.mjs
       ├ Apify: instagram-hashtag-scraper / tiktok-hashtag-scraper
-      ├ 최근 7일 + 좋아요 1,000 이상 필터, URL 중복 제거
+      ├ 최근 30일 + 좋아요 기준(인스타 500 / 틱톡 1,000) 필터, URL 중복 제거
       ├ 빈도 키워드·외부 링크 추출
       ├ Claude 요약 (claude-opus-5-5)
       └ public/data/latest.json, history/YYYY-MM-DD.json 저장 → 커밋
@@ -21,8 +21,8 @@ GitHub Actions (매일 09:00 KST)
 |---|---|
 | `hashtags` | 조회할 해시태그 목록 (`#` 없이) |
 | `platforms` | `instagram`, `tiktok` |
-| `days` | 최근 며칠 이내 게시글만 (기본 7) |
-| `minLikes` | 좋아요 최소값 (기본 1000) |
+| `days` | 최근 며칠 이내 게시글만 (기본 30) |
+| `minLikes` | 좋아요 최소값. 숫자 하나(공통) 또는 `{ "instagram": 500, "tiktok": 1000 }` 처럼 플랫폼별 |
 | `maxPostsPerHashtag` | 플랫폼·해시태그당 Apify에서 가져올 최대 게시글 수 (비용과 직결) |
 | `claude.enabled` / `model` / `maxPostsInPrompt` | Claude 요약 설정 |
 
