@@ -57,6 +57,21 @@ for (const rawTag of config.hashtags) {
     .sort((a, b) => (b.likes ?? 0) - (a.likes ?? 0));
   console.log(`  필터 후 ${posts.length}건 (최근 ${config.days}일, 좋아요 ${config.minLikes}+)`);
 
+  // 플랫폼별 탈락 사유 (조건을 조정할 때 참고)
+  const dropped = {};
+  for (const platform of config.platforms) {
+    const all = [...byUrl.values()].filter((p) => p.platform === platform);
+    const recent = all.filter((p) => p.postedAt && new Date(p.postedAt) >= since);
+    dropped[platform] = {
+      collected: all.length,
+      noDate: all.filter((p) => !p.postedAt).length,
+      older: all.filter((p) => p.postedAt && new Date(p.postedAt) < since).length,
+      hiddenLikes: recent.filter((p) => p.likes == null).length,
+      lowLikes: recent.filter((p) => p.likes != null && p.likes < config.minLikes).length,
+    };
+    console.log(`    ${platform} 탈락:`, JSON.stringify(dropped[platform]));
+  }
+
   const keywords = extractKeywords(posts, hashtag);
 
   let ai = null;
@@ -81,6 +96,7 @@ for (const rawTag of config.hashtags) {
   result.hashtags.push({
     hashtag,
     collectedCount: byUrl.size,
+    dropped,
     postCount: posts.length,
     byPlatform: Object.fromEntries(
       config.platforms.map((pf) => [pf, posts.filter((p) => p.platform === pf).length]),
