@@ -5,7 +5,11 @@ const fmt = (n) => (n == null ? "–" : n >= 10000 ? `${(n / 1000).toFixed(1)}K`
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
 const safeUrl = (u) => (/^https?:\/\//i.test(u) ? u : "#");
 
-const state = { data: null, tab: 0, platform: "all", term: "", query: "" };
+const state = { data: null, tab: 0, platform: "all", term: "", query: "", matchedOnly: true, author: "" };
+
+// 해시태그 탭들 + (있으면) 계정 모니터링 탭
+const groups = () => [...state.data.hashtags, ...(state.data.accounts ? [state.data.accounts] : [])];
+const isAccounts = (g) => g?.kind === "accounts";
 
 async function loadJson(path) {
   const res = await fetch(path, { cache: "no-store" });
@@ -32,16 +36,20 @@ async function load(day) {
     $("#content").innerHTML = "";
     return;
   }
-  state.tab = Math.min(state.tab, state.data.hashtags.length - 1);
+  state.tab = Math.max(0, Math.min(state.tab, groups().length - 1));
   state.term = "";
+  state.author = "";
   render();
 }
 
 function currentPosts() {
-  const h = state.data.hashtags[state.tab];
+  const h = groups()[state.tab];
   const q = state.query.toLowerCase();
+  const acc = isAccounts(h);
   return h.posts.filter((p) =>
     (state.platform === "all" || p.platform === state.platform) &&
+    (!acc || !state.matchedOnly || p.matched?.length) &&
+    (!acc || !state.author || `${p.platform}:${p.author.toLowerCase()}` === state.author) &&
     (!state.term || p.hashtags.includes(state.term) || p.caption.toLowerCase().includes(state.term)) &&
     (!q || `${p.caption} ${p.author} ${p.hashtags.join(" ")}`.toLowerCase().includes(q)),
   );
@@ -58,12 +66,12 @@ function render() {
   const banner = $("#banner");
   const notes = [];
   if (d.sample) notes.push("샘플 데이터입니다. 실제 수집은 README의 설정 방법을 참고하세요.");
-  for (const e of d.errors || []) notes.push(`#${e.hashtag} ${e.platform}: ${e.message}`);
+  for (const e of d.errors || []) notes.push(`${e.hashtag === "계정" ? "계정" : "#" + e.hashtag} ${e.platform}: ${e.message}`);
   banner.hidden = notes.length === 0;
   banner.innerHTML = notes.map(esc).join("<br>");
 
-  $("#tabs").innerHTML = d.hashtags
-    .map((h, i) => `<button role="tab" aria-selected="${i === state.tab}" data-i="${i}">#${esc(h.hashtag)} <span>${h.postCount}</span></button>`)
+  $("#tabs").innerHTML = groups()
+    .map((h, i) => `<button role="tab" aria-selected="${i === state.tab}" data-i="${i}">${isAccounts(h) ? "" : "#"}${esc(h.hashtag)} <span>${h.postCount}</span></button>`)
     .join("");
   $("#tabs").onclick = (e) => {
     const b = e.target.closest("button");
@@ -71,19 +79,21 @@ function render() {
     state.tab = Number(b.dataset.i);
     state.term = "";
     state.query = "";
+    state.author = "";
     render();
   };
 
-  const h = d.hashtags[state.tab];
+  const h = groups()[state.tab];
   if (!h) { $("#content").innerHTML = `<p class="empty">설정된 해시태그가 없습니다.</p>`; return; }
 
   const view = $("#tpl").content.cloneNode(true);
 
+  const acc = isAccounts(h);
   slot(view, "stats").innerHTML = [
-    ["필터 통과 게시글", h.postCount],
+    [acc ? "키워드 매칭 게시글" : "필터 통과 게시글", h.postCount],
     ["Instagram", h.byPlatform.instagram ?? 0],
     ["TikTok", h.byPlatform.tiktok ?? 0],
-    ["전체 수집", h.collectedCount],
+    [acc ? `최근 ${d.criteria.days}일 전체 게시글` : "전체 수집", h.collectedCount],
     ["외부 링크", h.keywords.externalUrls.length],
   ].map(([k, v]) => `<div class="stat"><b>${fmt(v)}</b><span>${k}</span></div>`).join("");
 
@@ -108,6 +118,26 @@ function render() {
     ? h.keywords.externalUrls.map((l) => `<li><a href="${esc(safeUrl(l.url))}" target="_blank" rel="noopener">${esc(l.url)}</a> <span class="muted">· ${l.count}회</span></li>`).join("")
     : `<li class="muted">캡션에 포함된 링크가 없습니다.</li>`;
 
+  if (acc) {
+    slot(view, "accounts-card").hidden = false;
+    slot(view, "matched-wrap").hidden = false;
+    slot(view, "matched-only").checked = state.matchedOnly;
+    slot(view, "accounts-note").textContent =
+      `키워드: ${h.keywordsUsed.join(", ")} · 계정 게시글은 좋아요 기준 없이 키워드 매칭으로 고릅니다. 키워드·해시태그·링크 집계는 매칭된 게시글 기준입니다. 행을 누르면 해당 계정만 봅니다.`;
+    slot(view, "accounts").innerHTML = h.accounts.map((a) => {
+      const key = `${a.platform}:${a.username}`;
+      const profile = a.platform === "instagram" ? `https://www.instagram.com/${a.username}/` : `https://www.tiktok.com/@${a.username}`;
+      return `<tr class="clickable${state.author === key ? " selected" : ""}" data-author="${esc(key)}">
+        <td><span class="pf ${a.platform}">${a.platform === "instagram" ? "Instagram" : "TikTok"}</span></td>
+        <td><a href="${esc(profile)}" target="_blank" rel="noopener">@${esc(a.username)}</a>${a.error ? `<div class="err">${esc(a.error)}</div>` : ""}</td>
+        <td class="num">${fmt(a.followers)}</td>
+        <td class="num">${fmt(a.postCount)}</td>
+        <td class="num">${fmt(a.matchedCount)}</td>
+        <td></td>
+      </tr>`;
+    }).join("");
+  }
+
   const search = slot(view, "search");
   search.value = state.query;
 
@@ -122,11 +152,21 @@ function render() {
     };
   });
   $('[data-slot="search"]').oninput = (e) => { state.query = e.target.value; renderPosts(); };
+  $('[data-slot="matched-only"]').onchange = (e) => { state.matchedOnly = e.target.checked; renderPosts(); };
+  $("#content").querySelectorAll("tr[data-author]").forEach((tr) => {
+    tr.onclick = (e) => {
+      if (e.target.closest("a")) return;
+      state.author = state.author === tr.dataset.author ? "" : tr.dataset.author;
+      $("#content").querySelectorAll("tr[data-author]").forEach((r) => r.classList.toggle("selected", r.dataset.author === state.author));
+      renderPosts();
+    };
+  });
 }
 
 function renderPosts() {
   const posts = currentPosts();
-  $('[data-slot="post-count"]').textContent = `${posts.length}건${state.term ? ` · "${state.term}" 필터` : ""}`;
+  const filters = [state.term && `"${state.term}"`, state.author && `@${state.author.split(":")[1]}`].filter(Boolean);
+  $('[data-slot="post-count"]').textContent = `${posts.length}건${filters.length ? ` · ${filters.join(", ")} 필터` : ""}`;
   $('[data-slot="posts"]').innerHTML = posts.length
     ? posts.map((p) => `
       <tr>
@@ -136,17 +176,17 @@ function renderPosts() {
         <td class="num">${fmt(p.comments)}</td>
         <td class="num">${fmt(p.views)}</td>
         <td>${esc(p.author)}</td>
-        <td class="caption"><a href="${esc(safeUrl(p.url))}" target="_blank" rel="noopener" title="${esc(p.caption)}">${esc(p.caption || p.url)}</a></td>
+        <td class="caption"><a href="${esc(safeUrl(p.url))}" target="_blank" rel="noopener" title="${esc(p.caption)}">${esc(p.caption || p.url)}</a>${p.matched?.length ? `<div class="tags-inline">${p.matched.map((m) => `<span class="tag-match">${esc(m)}</span>`).join("")}</div>` : ""}</td>
       </tr>`).join("")
     : `<tr><td colspan="7" class="empty">조건에 맞는 게시글이 없습니다.</td></tr>`;
 }
 
 function exportCsv() {
   if (!state.data) return;
-  const h = state.data.hashtags[state.tab];
-  const rows = [["platform", "postedAt", "likes", "comments", "views", "author", "url", "hashtags", "caption"]];
+  const h = groups()[state.tab];
+  const rows = [["platform", "postedAt", "likes", "comments", "views", "author", "url", "hashtags", "matched", "caption"]];
   for (const p of currentPosts()) {
-    rows.push([p.platform, p.postedAt, p.likes, p.comments, p.views, p.author, p.url, p.hashtags.join(" "), p.caption]);
+    rows.push([p.platform, p.postedAt, p.likes, p.comments, p.views, p.author, p.url, p.hashtags.join(" "), (p.matched || []).join(" "), p.caption]);
   }
   const csv = rows.map((r) => r.map((v) => `"${String(v ?? "").replace(/"/g, '""')}"`).join(",")).join("\n");
   const a = document.createElement("a");

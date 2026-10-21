@@ -4,6 +4,14 @@
   "days": 30,
   "minLikes": { "instagram": 500, "tiktok": 1000 },
   "maxPostsPerHashtag": 300,
+  "accounts": {
+    "instagram": [],
+    "tiktok": [],
+    "keywords": [],
+    "tiktokMaxPerProfile": 30,
+    "tiktokRefreshDays": 3,
+    "graphVersion": "v23.0"
+  },
   "claude": {
     "enabled": false,
     "model": "claude-opus-5-5",

@@ -104,3 +104,14 @@ td.caption a { color: var(--text); display: -webkit-box; -webkit-line-clamp: 2; 
 .pf.instagram { color: var(--ig); }
 .pf.tiktok { color: var(--tt); }
 .empty { color: var(--muted); padding: 24px; text-align: center; }
+
+.row-controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.toggle { display: inline-flex; gap: 6px; align-items: center; cursor: pointer; white-space: nowrap; }
+.toggle input { padding: 0; }
+.tags-inline { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 4px; }
+.tag-match { background: var(--accent-soft); color: var(--accent); border-radius: 4px; padding: 0 6px; font-size: 12px; }
+tr.clickable { cursor: pointer; }
+tr.clickable:hover td { background: var(--bg); }
+tr.selected td { background: var(--accent-soft); }
+.err { color: var(--ig); font-size: 12px; }
+[hidden] { display: none !important; }

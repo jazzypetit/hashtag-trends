@@ -35,24 +35,27 @@ export async function fetchTiktok(hashtag, limit, token) {
     { hashtags: [hashtag], resultsPerPage: limit },
     token,
   );
-  return items
-    .filter((it) => it.webVideoUrl)
-    .map((it) => ({
-      platform: "tiktok",
-      sourceHashtag: hashtag,
-      url: it.webVideoUrl,
-      author: it.authorMeta?.name || "",
-      caption: it.text || "",
-      hashtags: (it.hashtags || [])
-        .map((h) => (typeof h === "string" ? h : h?.name))
-        .filter(Boolean)
-        .map((h) => h.toLowerCase()),
-      likes: num(it.diggCount),
-      comments: num(it.commentCount),
-      views: num(it.playCount),
-      postedAt: it.createTimeISO || (it.createTime ? new Date(it.createTime * 1000).toISOString() : null),
-      thumbnail: it.videoMeta?.coverUrl || "",
-    }));
+  return items.filter((it) => it.webVideoUrl).map((it) => mapTiktokItem(it, hashtag));
+}
+
+// tiktok-hashtag-scraper / tiktok-profile-scraper 공통 출력 형식
+export function mapTiktokItem(it, sourceHashtag = null) {
+  return {
+    platform: "tiktok",
+    sourceHashtag,
+    url: it.webVideoUrl,
+    author: it.authorMeta?.name || "",
+    caption: it.text || "",
+    hashtags: (it.hashtags || [])
+      .map((h) => (typeof h === "string" ? h : h?.name))
+      .filter(Boolean)
+      .map((h) => h.toLowerCase()),
+    likes: num(it.diggCount),
+    comments: num(it.commentCount),
+    views: num(it.playCount),
+    postedAt: it.createTimeISO || (it.createTime ? new Date(it.createTime * 1000).toISOString() : null),
+    thumbnail: it.videoMeta?.coverUrl || "",
+  };
 }
 
 export const FETCHERS = { instagram: fetchInstagram, tiktok: fetchTiktok };
