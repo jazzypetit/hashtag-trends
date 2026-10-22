@@ -1,0 +1,1639 @@
+{
+  "generatedAt": "2026-10-22T02:03:41.981Z",
+  "sample": false,
+  "criteria": {
+    "days": 30,
+    "minLikes": {
+      "instagram": 500,
+      "tiktok": 1000
+    },
+    "since": "2026-09-22T02:03:41.981Z"
+  },
+  "hashtags": [
+    {
+      "hashtag": "말랑이",
+      "collectedCount": 327,
+      "dropped": {
+        "instagram": {
+          "collected": 27,
+          "noDate": 0,
+          "older": 0,
+          "hiddenLikes": 6,
+          "lowLikes": 21
+        },
+        "tiktok": {
+          "collected": 300,
+          "noDate": 0,
+          "older": 250,
+          "hiddenLikes": 0,
+          "lowLikes": 20
+        }
+      },
+      "postCount": 30,
+      "byPlatform": {
+        "instagram": 0,
+        "tiktok": 30
+      },
+      "keywords": {
+        "hashtags": [
+          {
+            "term": "squishy",
+            "count": 9,
+            "likes": 108017
+          },
+          {
+            "term": "슬라임",
+            "count": 8,
+            "likes": 63359
+          },
+          {
+            "term": "スクイーズ",
+            "count": 7,
+            "likes": 134046
+          },
+          {
+            "term": "asmr",
+            "count": 6,
+            "likes": 112874
+          },
+          {
+            "term": "squishyasmr",
+            "count": 6,
+            "likes": 94044
+          },
+          {
+            "term": "슬랑이",
+            "count": 5,
+            "likes": 32045
+          },
+          {
+            "term": "슬라임계",
+            "count": 4,
+            "likes": 48602
+          },
+          {
+            "term": "fyp",
+            "count": 3,
+            "likes": 64528
+          },
+          {
+            "term": "squishies",
+            "count": 3,
+            "likes": 23322
+          },
+          {
+            "term": "slime",
+            "count": 3,
+            "likes": 13715
+          },
+          {
+            "term": "tabasquishy",
+            "count": 2,
+            "likes": 70250
+          },
+          {
+            "term": "waxcracking",
+            "count": 1,
+            "likes": 90700
+          },
+          {
+            "term": "squeeze",
+            "count": 1,
+            "likes": 90700
+          },
+          {
+            "term": "리락쿠마",
+            "count": 1,
+            "likes": 63400
+          },
+          {
+            "term": "리락쿠마말랑이",
+            "count": 1,
+            "likes": 63400
+          },
+          {
+            "term": "fidgettoys",
+            "count": 1,
+            "likes": 56600
+          },
+          {
+            "term": "fidgets",
+            "count": 1,
+            "likes": 56600
+          },
+          {
+            "term": "fypシ",
+            "count": 1,
+            "likes": 56600
+          },
+          {
+            "term": "idol_bingo",
+            "count": 1,
+            "likes": 25700
+          },
+          {
+            "term": "체아빙",
+            "count": 1,
+            "likes": 25700
+          },
+          {
+            "term": "연지곤지",
+            "count": 1,
+            "likes": 25700
+          },
+          {
+            "term": "yzkz",
+            "count": 1,
+            "likes": 25700
+          },
+          {
+            "term": "mnetplus_original",
+            "count": 1,
+            "likes": 25700
+          },
+          {
+            "term": "mnetplus",
+            "count": 1,
+            "likes": 25700
+          },
+          {
+            "term": "하이라이트컷",
+            "count": 1,
+            "likes": 25700
+          },
+          {
+            "term": "풀딱지",
+            "count": 1,
+            "likes": 18400
+          },
+          {
+            "term": "딱지",
+            "count": 1,
+            "likes": 18400
+          },
+          {
+            "term": "크런치말랑이",
+            "count": 1,
+            "likes": 16900
+          },
+          {
+            "term": "순위매기기",
+            "count": 1,
+            "likes": 16900
+          },
+          {
+            "term": "말랑이순위매기기",
+            "count": 1,
+            "likes": 16900
+          },
+          {
+            "term": "인형",
+            "count": 1,
+            "likes": 14400
+          },
+          {
+            "term": "만들기",
+            "count": 1,
+            "likes": 14400
+          },
+          {
+            "term": "koreatrend",
+            "count": 1,
+            "likes": 14100
+          },
+          {
+            "term": "squishmallow",
+            "count": 1,
+            "likes": 14100
+          },
+          {
+            "term": "퍼티",
+            "count": 1,
+            "likes": 11200
+          },
+          {
+            "term": "치약",
+            "count": 1,
+            "likes": 11200
+          },
+          {
+            "term": "スクイーズ紹介",
+            "count": 1,
+            "likes": 10100
+          },
+          {
+            "term": "สกุชชี่",
+            "count": 1,
+            "likes": 9452
+          },
+          {
+            "term": "tuide",
+            "count": 1,
+            "likes": 6886
+          },
+          {
+            "term": "튜이드",
+            "count": 1,
+            "likes": 6886
+          }
+        ],
+        "words": [
+          {
+            "term": "말랑이",
+            "count": 7,
+            "likes": 121999
+          },
+          {
+            "term": "말랑이가",
+            "count": 4,
+            "likes": 16141
+          },
+          {
+            "term": "만들기",
+            "count": 3,
+            "likes": 36161
+          },
+          {
+            "term": "squishy",
+            "count": 2,
+            "likes": 82300
+          },
+          {
+            "term": "샤베트",
+            "count": 2,
+            "likes": 9636
+          },
+          {
+            "term": "슬랑이",
+            "count": 2,
+            "likes": 7440
+          },
+          {
+            "term": "どれがすき",
+            "count": 1,
+            "likes": 90700
+          },
+          {
+            "term": "메론쿠마",
+            "count": 1,
+            "likes": 63400
+          },
+          {
+            "term": "크런치",
+            "count": 1,
+            "likes": 63400
+          },
+          {
+            "term": "영상",
+            "count": 1,
+            "likes": 63400
+          },
+          {
+            "term": "소녀",
+            "count": 1,
+            "likes": 63400
+          },
+          {
+            "term": "yellow",
+            "count": 1,
+            "likes": 56600
+          },
+          {
+            "term": "fidget",
+            "count": 1,
+            "likes": 56600
+          },
+          {
+            "term": "soup",
+            "count": 1,
+            "likes": 56600
+          },
+          {
+            "term": "crunchy",
+            "count": 1,
+            "likes": 56600
+          },
+          {
+            "term": "asmr",
+            "count": 1,
+            "likes": 56600
+          },
+          {
+            "term": "원희",
+            "count": 1,
+            "likes": 25700
+          },
+          {
+            "term": "애착",
+            "count": 1,
+            "likes": 25700
+          },
+          {
+            "term": "미쳤다",
+            "count": 1,
+            "likes": 25700
+          },
+          {
+            "term": "wonhee's",
+            "count": 1,
+            "likes": 25700
+          },
+          {
+            "term": "favorite",
+            "count": 1,
+            "likes": 25700
+          },
+          {
+            "term": "insane",
+            "count": 1,
+            "likes": 25700
+          },
+          {
+            "term": "돌의",
+            "count": 1,
+            "likes": 25700
+          },
+          {
+            "term": "캐리어",
+            "count": 1,
+            "likes": 25700
+          },
+          {
+            "term": "필수",
+            "count": 1,
+            "likes": 25700
+          },
+          {
+            "term": "뷰티템은",
+            "count": 1,
+            "likes": 25700
+          },
+          {
+            "term": "𝗠𝗻𝗲𝘁",
+            "count": 1,
+            "likes": 25700
+          },
+          {
+            "term": "𝗣𝗹𝘂𝘀에서",
+            "count": 1,
+            "likes": 25700
+          },
+          {
+            "term": "빙고",
+            "count": 1,
+            "likes": 25700
+          },
+          {
+            "term": "보기",
+            "count": 1,
+            "likes": 25700
+          },
+          {
+            "term": "check-in",
+            "count": 1,
+            "likes": 25700
+          },
+          {
+            "term": "idol",
+            "count": 1,
+            "likes": 25700
+          },
+          {
+            "term": "bingo",
+            "count": 1,
+            "likes": 25700
+          },
+          {
+            "term": "매주",
+            "count": 1,
+            "likes": 25700
+          },
+          {
+            "term": "수요일",
+            "count": 1,
+            "likes": 25700
+          },
+          {
+            "term": "5pm",
+            "count": 1,
+            "likes": 25700
+          },
+          {
+            "term": "𝗣𝗹𝘂𝘀",
+            "count": 1,
+            "likes": 25700
+          },
+          {
+            "term": "공개",
+            "count": 1,
+            "likes": 25700
+          },
+          {
+            "term": "watch",
+            "count": 1,
+            "likes": 25700
+          },
+          {
+            "term": "목요일",
+            "count": 1,
+            "likes": 25700
+          }
+        ],
+        "externalUrls": [
+          {
+            "url": "https://mnetplus.onelink.me/TRa8/vz0p4o4p",
+            "count": 2,
+            "posts": [
+              "https://www.tiktok.com/@mnet_tiktok_official/video/7688587099305479442",
+              "https://www.tiktok.com/@mnet_tiktok_official/video/7688587099305479442"
+            ]
+          }
+        ]
+      },
+      "ai": null,
+      "posts": [
+        {
+          "platform": "tiktok",
+          "sourceHashtag": "말랑이",
+          "url": "https://www.tiktok.com/@mints__asmr/video/7696470691469692178",
+          "author": "mints__asmr",
+          "caption": "どれがすき？🥚#asmr #waxcracking #말랑이 #squeeze #スクイーズ ",
+          "hashtags": [
+            "asmr",
+            "waxcracking",
+            "말랑이",
+            "squeeze",
+            "スクイーズ"
+          ],
+          "likes": 90700,
+          "comments": 233,
+          "views": 1000000,
+          "postedAt": "2026-10-14T10:37:09.000Z",
+          "thumbnail": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/o02ZBf1pCiuOI1W8LA1wiByPERI6AAlEDAMAkE~tplv-tiktokx-origin.image?dr=9636&x-expires=1792807200&x-signature=3Gtk9psYBw4Ehb2Zjx0A%2FukcoZA%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast5"
+        },
+        {
+          "platform": "tiktok",
+          "sourceHashtag": "말랑이",
+          "url": "https://www.tiktok.com/@mocchi.zip/video/7688739045412752660",
+          "author": "mocchi.zip",
+          "caption": "메론쿠마 크런치 말랑이 🍈★彡\n\n#tabasquishy \n#squishyasmr \n#리락쿠마\n#리락쿠마말랑이\n#말랑이\n\n영상 속 소녀 = @세수🫧 님 🙇🏻🤍",
+          "hashtags": [
+            "tabasquishy",
+            "squishyasmr",
+            "리락쿠마",
+            "리락쿠마말랑이",
+            "말랑이"
+          ],
+          "likes": 63400,
+          "comments": 159,
+          "views": 1300000,
+          "postedAt": "2026-09-23T14:34:25.000Z",
+          "thumbnail": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/ocARinrzLyAjBIs03OvBa47kEiY6piBIuVPg4~tplv-tiktokx-origin.image?dr=9636&x-expires=1792807200&x-signature=8Zl4tn9702%2BxehutFmcGCwyyFyQ%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast5"
+        },
+        {
+          "platform": "tiktok",
+          "sourceHashtag": "말랑이",
+          "url": "https://www.tiktok.com/@fidgetbunni/video/7690054713609325838",
+          "author": "fidgetbunni",
+          "caption": "yellow fidget soup 💛⭐️🌟🌻🌙 #fidgettoys #fidgets #squishy #fyp #fypシ crunchy squishy asmr",
+          "hashtags": [
+            "fidgettoys",
+            "fidgets",
+            "squishy",
+            "fyp",
+            "fypシ"
+          ],
+          "likes": 56600,
+          "comments": 233,
+          "views": 361700,
+          "postedAt": "2026-09-27T03:40:06.000Z",
+          "thumbnail": "https://p16-common-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/ogikyEkPBgQi4B4Bbk8CAASFAaQIAirbEqz5J~tplv-tiktokx-origin.image?dr=9636&x-expires=1792807200&x-signature=1i53%2BT%2F1N3hd4UsX5O8u%2F8NqwHY%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8"
+        },
+        {
+          "platform": "tiktok",
+          "sourceHashtag": "말랑이",
+          "url": "https://www.tiktok.com/@mnet_tiktok_official/video/7688587099305479442",
+          "author": "mnet_tiktok_official",
+          "caption": "원희 애착 말랑이 미쳤다...\nWONHEE's Favorite Squishy is Insane...\n\n내 돌의 캐리어 속 필수 뷰티템은?🧳 \n𝗠𝗻𝗲𝘁 𝗣𝗹𝘂𝘀에서 빙고 보기👉https://mnetplus.onelink.me/TRa8/vz0p4o4p\n\n〈Check-in! IDOL BINGO〉 \n📍 매주 수요일 5PM 𝗠𝗻𝗲𝘁 𝗣𝗹𝘂𝘀 공개\n📍 Watch on 𝗠𝗻𝗲𝘁 𝗣𝗹𝘂𝘀\n📺 매주 목요일 저녁 7시 50분 𝗠𝗻𝗲𝘁 \n==\n\nBeauty must-haves in your fave’s suitcase? 🧳\nCatch the bingo on 𝗠𝗻𝗲𝘁 𝗣𝗹𝘂𝘀 👉https://mnetplus.onelink.me/TRa8/vz0p4o4p\n\n〈Check-in! IDOL BINGO〉 \n📍 Every Wednesday 5PM(KST) 𝗠𝗻𝗲𝘁 𝗣𝗹𝘂𝘀 Release\n📍 Watch on 𝗠𝗻𝗲𝘁 𝗣𝗹𝘂𝘀\n📺 Every Thursday 7:50PM(KST) 𝗠𝗻𝗲𝘁 On Air\n\n#IDOL_BINGO #체아빙 #연지곤지 #YZKZ #MnetPlus_Original #MnetPlus #하이라이트컷",
+          "hashtags": [
+            "idol_bingo",
+            "체아빙",
+            "연지곤지",
+            "yzkz",
+            "mnetplus_original",
+            "mnetplus",
+            "하이라이트컷"
+          ],
+          "likes": 25700,
+          "comments": 56,
+          "views": 283400,
+          "postedAt": "2026-09-24T02:30:00.000Z",
+          "thumbnail": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/oApParmUiINIVXirUAlip8XSzmZCzA9SBAYWS~tplv-tiktokx-origin.image?dr=9636&x-expires=1792807200&x-signature=Buqi7k7c%2BO5RuqVKiJZDvunJIOM%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast5"
+        },
+        {
+          "platform": "tiktok",
+          "sourceHashtag": "말랑이",
+          "url": "https://www.tiktok.com/@liongslimer/video/7697490180994878741",
+          "author": "liongslimer",
+          "caption": "코딱지 말고 풀딱지 만들기\n\n                                                                              \n\n#슬라임 #풀딱지 #딱지 #슬라임계 #말랑이 ",
+          "hashtags": [
+            "슬라임",
+            "풀딱지",
+            "딱지",
+            "슬라임계",
+            "말랑이"
+          ],
+          "likes": 18400,
+          "comments": 510,
+          "views": 459600,
+          "postedAt": "2026-10-17T04:33:25.000Z",
+          "thumbnail": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/oEFwAe5SzL2QPRfLgrIGTpe8gfx9AUxrGQlNuG~tplv-tiktokx-origin.image?dr=9636&x-expires=1792807200&x-signature=E%2Brel3YuLBK5aYFMSKhKhrd61WE%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast5"
+        },
+        {
+          "platform": "tiktok",
+          "sourceHashtag": "말랑이",
+          "url": "https://www.tiktok.com/@eazy_aaan/video/7693134304603426068",
+          "author": "eazy_aaan",
+          "caption": "우울치료제로 말랑이 도입합시다 #말랑이 #슬랑이 #크런치말랑이 #순위매기기 #말랑이순위매기기 ",
+          "hashtags": [
+            "말랑이",
+            "슬랑이",
+            "크런치말랑이",
+            "순위매기기",
+            "말랑이순위매기기"
+          ],
+          "likes": 16900,
+          "comments": 188,
+          "views": 330000,
+          "postedAt": "2026-10-05T10:50:21.000Z",
+          "thumbnail": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/ocOtCADiIKRf6BDCgwAcuIAYEAa1SxBqU1OAiB~tplv-tiktokx-origin.image?dr=9636&x-expires=1792807200&x-signature=P8yJwFzCHOkhTGYQ8uTcDdUxkrM%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast5"
+        },
+        {
+          "platform": "tiktok",
+          "sourceHashtag": "말랑이",
+          "url": "https://www.tiktok.com/@liongslimer/video/7694172920226041109",
+          "author": "liongslimer",
+          "caption": "바삭한 인형 만들기(?)\n\n                                                                                              \n\n#말랑이 #인형 #슬라임 #슬라임계 #만들기 ",
+          "hashtags": [
+            "말랑이",
+            "인형",
+            "슬라임",
+            "슬라임계",
+            "만들기"
+          ],
+          "likes": 14400,
+          "comments": 245,
+          "views": 471100,
+          "postedAt": "2026-10-08T06:00:42.000Z",
+          "thumbnail": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/o40uOHGEzDIGxSYqAZDIRM2FHfLOmvEUBDeBgo~tplv-tiktokx-origin.image?dr=9636&x-expires=1792807200&x-signature=GKd64iGRXPH22WCwiVkSF%2Bs%2FIT0%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast5"
+        },
+        {
+          "platform": "tiktok",
+          "sourceHashtag": "말랑이",
+          "url": "https://www.tiktok.com/@linda.ahn/video/7698513293706595605",
+          "author": "linda.ahn",
+          "caption": "lol I’m addicted \n\n📍457-98 Cheonho 2(i)-dong Gangdong-gu Seoul\n\n#squishies #말랑이 #koreatrend #squishmallow koreatravelguide",
+          "hashtags": [
+            "squishies",
+            "말랑이",
+            "koreatrend",
+            "squishmallow"
+          ],
+          "likes": 14100,
+          "comments": 24,
+          "views": 221500,
+          "postedAt": "2026-10-19T22:43:30.000Z",
+          "thumbnail": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/oImyFfQDBAT1iqICEWin0FITaAqISUxw8jIk6A~tplv-tiktokx-origin.image?dr=9636&x-expires=1792807200&x-signature=ryKS7DGYS3LwAoF6nKNNhHIO8So%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8"
+        },
+        {
+          "platform": "tiktok",
+          "sourceHashtag": "말랑이",
+          "url": "https://www.tiktok.com/@liongslimer/video/7698997072279735572",
+          "author": "liongslimer",
+          "caption": "퍼티에 치약을 섞어봤어요\n\n                                                                                  \n\n#퍼티 #치약 #슬라임 #슬라임계 #말랑이 ",
+          "hashtags": [
+            "퍼티",
+            "치약",
+            "슬라임",
+            "슬라임계",
+            "말랑이"
+          ],
+          "likes": 11200,
+          "comments": 253,
+          "views": 237200,
+          "postedAt": "2026-10-21T06:00:49.000Z",
+          "thumbnail": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/o40qIq5dFBARVMQchCixAI1D7CxwFADbIPfbYi~tplv-tiktokx-origin.image?dr=9636&x-expires=1792807200&x-signature=DZaU7mOjAv6tUpIJKNuR3Sf%2FS%2FE%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8"
+        },
+        {
+          "platform": "tiktok",
+          "sourceHashtag": "말랑이",
+          "url": "https://www.tiktok.com/@user102985200/video/7696787155296816405",
+          "author": "user102985200",
+          "caption": "スライムパキパキやってくぅ！\n\n#スクイーズ #squishy #말랑이 ",
+          "hashtags": [
+            "スクイーズ",
+            "squishy",
+            "말랑이"
+          ],
+          "likes": 10100,
+          "comments": 201,
+          "views": 520000,
+          "postedAt": "2026-10-15T07:05:13.000Z",
+          "thumbnail": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/oADbGhsfRqEzLUB0BdDQupFHUDU0gAnQdAkeQE~tplv-tiktokx-origin.image?dr=9636&x-expires=1792807200&x-signature=hcmlvFwgd2GXSxH6RPkSrkblsV0%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast5"
+        },
+        {
+          "platform": "tiktok",
+          "sourceHashtag": "말랑이",
+          "url": "https://www.tiktok.com/@user102985200/video/7690478513702341908",
+          "author": "user102985200",
+          "caption": "久しぶりのSHEIN購入品紹介やのに商品ページ全部消えてた😭😭\n\n#スクイーズ #スクイーズ紹介 #squishy #말랑이 #squishyasmr ",
+          "hashtags": [
+            "スクイーズ",
+            "スクイーズ紹介",
+            "squishy",
+            "말랑이",
+            "squishyasmr"
+          ],
+          "likes": 10100,
+          "comments": 137,
+          "views": 240400,
+          "postedAt": "2026-09-28T07:04:36.000Z",
+          "thumbnail": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/okg7iEhKqBUYEylsADBXewwuFEFQUQfRYEAC6q~tplv-tiktokx-origin.image?dr=9636&x-expires=1792807200&x-signature=DYWWKuCZfA9Sm3M9gOTx6j5w%2Bk4%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8"
+        },
+        {
+          "platform": "tiktok",
+          "sourceHashtag": "말랑이",
+          "url": "https://www.tiktok.com/@user102985200/video/7696429792236719380",
+          "author": "user102985200",
+          "caption": "やっと流行りに乗れた？❤️💙‪💚💛🩷💜\n\n#squishy #말랑이 #สกุชชี่ #スクイーズ ",
+          "hashtags": [
+            "squishy",
+            "말랑이",
+            "สกุชชี่",
+            "スクイーズ"
+          ],
+          "likes": 9452,
+          "comments": 200,
+          "views": 619100,
+          "postedAt": "2026-10-14T07:58:32.000Z",
+          "thumbnail": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/ocRepOAAQfMAPwuWNeFbsrbhTfwGGRTIBEF48W~tplv-tiktokx-origin.image?dr=9636&x-expires=1792807200&x-signature=bGGPhhT7rAFr3Dgi903G1IinVXM%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8"
+        },
+        {
+          "platform": "tiktok",
+          "sourceHashtag": "말랑이",
+          "url": "https://www.tiktok.com/@kangere0/video/7694226444389551378",
+          "author": "kangere0",
+          "caption": "버려진 말랑이로 만든 거지 말랑이의 최후",
+          "hashtags": [],
+          "likes": 7103,
+          "comments": 55,
+          "views": 340700,
+          "postedAt": "2026-10-08T10:05:00.000Z",
+          "thumbnail": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/oQamfABYvYDAciK01NrkDAKBwEbHBRnIAAw7i7~tplv-tiktokx-origin.image?dr=9636&x-expires=1792807200&x-signature=Eq43HUpr8Gp47EzDy1klWGw0gjo%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8"
+        },
+        {
+          "platform": "tiktok",
+          "sourceHashtag": "말랑이",
+          "url": "https://www.tiktok.com/@tluvsaki/video/7696107221528235284",
+          "author": "tluvsaki",
+          "caption": "데뷔 선물로 말랑이 샀다는 사키 #TUIDE #튜이드 #SAKI #사키 #fyp ",
+          "hashtags": [
+            "tuide",
+            "튜이드",
+            "saki",
+            "사키",
+            "fyp"
+          ],
+          "likes": 6886,
+          "comments": 56,
+          "views": 73700,
+          "postedAt": "2026-10-13T11:06:46.000Z",
+          "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/osGjcYeCFzxCVLfI8nHCAZ4gIngDIg3AjEO4fY~tplv-tiktokx-origin.image?dr=10395&x-expires=1792807200&x-signature=fbbu6jbyeXYxnvAjSYR83ArUBV8%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast2b"
+        },
+        {
+          "platform": "tiktok",
+          "sourceHashtag": "말랑이",
+          "url": "https://www.tiktok.com/@mocchi.zip/video/7695787304954236180",
+          "author": "mocchi.zip",
+          "caption": "🐹 + 🍉\n\n#말랑이\n#크런치슬랑이 \n#squishies\n#squishyasmr \n#tabasquishy ",
+          "hashtags": [
+            "말랑이",
+            "크런치슬랑이",
+            "squishies",
+            "squishyasmr",
+            "tabasquishy"
+          ],
+          "likes": 6850,
+          "comments": 32,
+          "views": 250700,
+          "postedAt": "2026-10-12T14:25:18.000Z",
+          "thumbnail": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/okfZfiAM8AQBOa26DMGro6Fe2QGQWRc9E7xQfN~tplv-tiktokx-origin.image?dr=9636&x-expires=1792807200&x-signature=355XjRzzQ80xCDli0R7r02Jhdf4%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8"
+        },
+        {
+          "platform": "tiktok",
+          "sourceHashtag": "말랑이",
+          "url": "https://www.tiktok.com/@ra_land00/video/7688192914442243329",
+          "author": "ra_land00",
+          "caption": "🎀Crunch Squish DIY🎀 쿠마 크랑이 유행하게 해주세오 #슬랑이 #쿠마말랑이 #말랑이 #asmr #Squish ",
+          "hashtags": [
+            "슬랑이",
+            "쿠마말랑이",
+            "말랑이",
+            "asmr",
+            "squish"
+          ],
+          "likes": 6663,
+          "comments": 92,
+          "views": 294000,
+          "postedAt": "2026-09-22T03:15:46.000Z",
+          "thumbnail": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/oYFLsAjVYADVDrKAE0efCj8EopxfIYkAI4IAED~tplv-tiktokx-origin.image?dr=9636&x-expires=1792807200&x-signature=m4GPcMjsq3uNxqWn2LoO98Gyyok%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast5"
+        },
+        {
+          "platform": "tiktok",
+          "sourceHashtag": "말랑이",
+          "url": "https://www.tiktok.com/@user102985200/video/7691757163395501333",
+          "author": "user102985200",
+          "caption": "タバスク骨折音スクイーズ🦴\n\n#スクイーズ #squishy #말랑이 #squishyasmr ",
+          "hashtags": [
+            "スクイーズ",
+            "squishy",
+            "말랑이",
+            "squishyasmr"
+          ],
+          "likes": 6646,
+          "comments": 105,
+          "views": 175100,
+          "postedAt": "2026-10-02T07:00:00.000Z",
+          "thumbnail": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/oUe8Qel4GG9qLOXRreInTxgGfFQgDgnAx8GdUA~tplv-tiktokx-origin.image?dr=9636&x-expires=1792807200&x-signature=qNngFPSTEvZ0XvGEXG8SY4CXAKw%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast5"
+        },
+        {
+          "platform": "tiktok",
+          "sourceHashtag": "말랑이",
+          "url": "https://www.tiktok.com/@9jil_9zil_/video/7692694500375940373",
+          "author": "9jil_9zil_",
+          "caption": "🍏✂️샤베트 말랑이 잘라서 슬라임 섞기 💚🤍\n두리안이 된 이유는...유튜브 풀버전 영상에서...\n\n#슬라임 #말랑이 #asmr #slime #squishy",
+          "hashtags": [
+            "슬라임",
+            "말랑이",
+            "asmr",
+            "slime",
+            "squishy"
+          ],
+          "likes": 6275,
+          "comments": 139,
+          "views": 201500,
+          "postedAt": "2026-10-04T06:23:48.000Z",
+          "thumbnail": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/oQdoDVfDoIeujaVIJ83HvgJfBCPAWECoFB4hIA~tplv-tiktokx-origin.image?dr=9636&x-expires=1792807200&x-signature=2m97Y0x36IGWum60qprXNMRjzr8%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast5"
+        },
+        {
+          "platform": "tiktok",
+          "sourceHashtag": "말랑이",
+          "url": "https://www.tiktok.com/@bomcaylog/video/7693781106834803986",
+          "author": "bomcaylog",
+          "caption": "말랑이가 어떻게 가나디?\n\n#가나디 #말랑이 #스트레스볼 #굿즈 #캐릭터",
+          "hashtags": [
+            "가나디",
+            "말랑이",
+            "스트레스볼",
+            "굿즈",
+            "캐릭터"
+          ],
+          "likes": 4975,
+          "comments": 127,
+          "views": 108600,
+          "postedAt": "2026-10-07T04:40:15.000Z",
+          "thumbnail": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/oUqI1jLi4QGavTFAhaeAefIYVFQAjcXD4HT5zC~tplv-tiktokx-origin.image?dr=9636&x-expires=1792807200&x-signature=lNGk26Pr%2BX2LdD18x%2B3Yu8fGS8w%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast5"
+        },
+        {
+          "platform": "tiktok",
+          "sourceHashtag": "말랑이",
+          "url": "https://www.tiktok.com/@liongslimer/video/7697162443037920532",
+          "author": "liongslimer",
+          "caption": "아니 무슨 말랑이가 팔뚝만해\n\n                                                                            \n\n#오이 #말랑이 #피클 #슬라임 #슬라임계 ",
+          "hashtags": [
+            "오이",
+            "말랑이",
+            "피클",
+            "슬라임",
+            "슬라임계"
+          ],
+          "likes": 4602,
+          "comments": 163,
+          "views": 99700,
+          "postedAt": "2026-10-16T07:21:34.000Z",
+          "thumbnail": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/ogaS0CDlXIRE2yIotYIiVAxHBPiqHRiRBtlAQ~tplv-tiktokx-origin.image?dr=9636&x-expires=1792807200&x-signature=Vi94zIpRFwCodbbAam61XyTIGas%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast5"
+        },
+        {
+          "platform": "tiktok",
+          "sourceHashtag": "말랑이",
+          "url": "https://www.tiktok.com/@user102985200/video/7692637337284611349",
+          "author": "user102985200",
+          "caption": "今流行りのやつのASMRバージョンやってみた🫶これ英語の勉強になるね🤣\n\n#スクイーズ #squishy #말랑이 #squishyasmr ",
+          "hashtags": [
+            "スクイーズ",
+            "squishy",
+            "말랑이",
+            "squishyasmr"
+          ],
+          "likes": 4204,
+          "comments": 112,
+          "views": 91000,
+          "postedAt": "2026-10-04T07:00:00.000Z",
+          "thumbnail": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/oE4saBBXYZsV7IHBvGEPAPNziAYKkuCd7uihI~tplv-tiktokx-origin.image?dr=9636&x-expires=1792807200&x-signature=WzE8S1qUeI542jh%2FDIMAxHDXt%2BM%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast5"
+        },
+        {
+          "platform": "tiktok",
+          "sourceHashtag": "말랑이",
+          "url": "https://www.tiktok.com/@ingermimarket/video/7697588655686241557",
+          "author": "ingermimarket",
+          "caption": "진짜 이 슬랑이 베이스는 생각못하셨을걸요?! #asmr #slime #슬랑이 #말랑이 #슬라임 ",
+          "hashtags": [
+            "asmr",
+            "slime",
+            "슬랑이",
+            "말랑이",
+            "슬라임"
+          ],
+          "likes": 4079,
+          "comments": 25,
+          "views": 215100,
+          "postedAt": "2026-10-17T10:55:28.000Z",
+          "thumbnail": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o0CCAVDpVLjH9IqCIVIGeCeiIFEJAbfVD4Ttvj~tplv-tiktokx-origin.image?dr=14575&x-expires=1792807200&x-signature=V9O%2FwB%2FAK6MfB0GsaYyvBdjNg%2Fg%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=my"
+        },
+        {
+          "platform": "tiktok",
+          "sourceHashtag": "말랑이",
+          "url": "https://www.tiktok.com/@moaticchin/video/7695337594271403285",
+          "author": "moaticchin",
+          "caption": "할로윈 만두말랑이 언박싱 과연 히든골든 말랑이가 있을까요???\n#말랑이 ",
+          "hashtags": [
+            "말랑이"
+          ],
+          "likes": 3833,
+          "comments": 227,
+          "views": 156500,
+          "postedAt": "2026-10-11T09:20:13.000Z",
+          "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/oYDL1cvNIBAyuIEbNfRVEMwB0S0K1gfTGbAiFq~tplv-tiktokx-origin.image?dr=10395&x-expires=1792807200&x-signature=%2BSWBckcSEHnq9%2FnO9IdcsxdbLlc%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast2b"
+        },
+        {
+          "platform": "tiktok",
+          "sourceHashtag": "말랑이",
+          "url": "https://www.tiktok.com/@ingermimarket/video/7697961260779982101",
+          "author": "ingermimarket",
+          "caption": "샤베트 베이스로 키위 샤베트 슬랑이 만들기 🥝✨ #asmr #slime #슬랑이 #말랑이 #슬라임 ",
+          "hashtags": [
+            "asmr",
+            "slime",
+            "슬랑이",
+            "말랑이",
+            "슬라임"
+          ],
+          "likes": 3361,
+          "comments": 16,
+          "views": 224400,
+          "postedAt": "2026-10-18T11:01:23.000Z",
+          "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/oQEmIcbfKwoI2nER5p1qeJFYSnNDmngBAQ2UUB~tplv-tiktokx-origin.image?dr=10395&x-expires=1792807200&x-signature=R16Msq0mF6eSGGhPS0g%2FLIncnXs%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast2b"
+        },
+        {
+          "platform": "tiktok",
+          "sourceHashtag": "말랑이",
+          "url": "https://www.tiktok.com/@i.uhtok55/video/7692298189088574751",
+          "author": "i.uhtok55",
+          "caption": "말이 안 된다는 개쫀득말랑이;;",
+          "hashtags": [],
+          "likes": 2879,
+          "comments": 19,
+          "views": 97400,
+          "postedAt": "2026-10-03T04:45:55.000Z",
+          "thumbnail": "https://p19-common-sign.tiktokcdn-us.com/tos-useast8-p-0068-tx2/ocDECAVPEFAfcwAAIVEDVnY4IqiAhqqAhELfCG~tplv-tiktokx-origin.image?dr=9636&x-expires=1792807200&x-signature=FSX6Og6TbS2kPbxNyVBnaNZpirg%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8"
+        },
+        {
+          "platform": "tiktok",
+          "sourceHashtag": "말랑이",
+          "url": "https://www.tiktok.com/@user102985200/video/7693447267759492372",
+          "author": "user102985200",
+          "caption": "今回は成功するかな？？？？🥹\n\n#スクイーズ #squishy #말랑이 #squishyasmr ",
+          "hashtags": [
+            "スクイーズ",
+            "squishy",
+            "말랑이",
+            "squishyasmr"
+          ],
+          "likes": 2844,
+          "comments": 97,
+          "views": 106700,
+          "postedAt": "2026-10-06T07:04:46.000Z",
+          "thumbnail": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/oouE4fJJggfRDDlQI76EA9BUkBxFQoQiq31DbO~tplv-tiktokx-origin.image?dr=9636&x-expires=1792807200&x-signature=kaiyWKJH1FUYua04aC99AXUD8OQ%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8"
+        },
+        {
+          "platform": "tiktok",
+          "sourceHashtag": "말랑이",
+          "url": "https://www.tiktok.com/@kkukku_diy/video/7696921650658430224",
+          "author": "kkukku_diy",
+          "caption": "다이소에서 대왕 비누 말랑이가 나왔다고?\n\n#비누말랑이 #다이소 #대왕스퀴시 #다이소스퀴시 #다이소말랑이",
+          "hashtags": [
+            "비누말랑이",
+            "다이소",
+            "대왕스퀴시",
+            "다이소스퀴시",
+            "다이소말랑이"
+          ],
+          "likes": 2731,
+          "comments": 62,
+          "views": 120400,
+          "postedAt": "2026-10-16T07:57:00.000Z",
+          "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/ogYQfwwaPAEyDqDLABI13XBm9iAOiCAhhHAIk6~tplv-tiktokx-origin.image?dr=10395&x-expires=1792807200&x-signature=LAZ7vmsCojyrdYJkRA%2B7F9cgdmk%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast2b"
+        },
+        {
+          "platform": "tiktok",
+          "sourceHashtag": "말랑이",
+          "url": "https://www.tiktok.com/@mocchi.zip/video/7696071338301246741",
+          "author": "mocchi.zip",
+          "caption": "오백원,천원 가챠? ⚗︎·̫⚗︎\n\n#가챠\n#말랑이\n#squishies\n#squishytoy \n#gacha ",
+          "hashtags": [
+            "가챠",
+            "말랑이",
+            "squishies",
+            "squishytoy",
+            "gacha"
+          ],
+          "likes": 2372,
+          "comments": 143,
+          "views": 79900,
+          "postedAt": "2026-10-13T08:47:33.000Z",
+          "thumbnail": "https://p19-common-sign.tiktokcdn.com/tos-alisg-p-0037/oUZICAppDB8m5o6NbYiTAeIijAzZDs9fIFCVde~tplv-tiktokx-origin.image?dr=14575&x-expires=1792807200&x-signature=29JM7ceJCE41Ewc43TXi%2FA21BeY%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=my"
+        },
+        {
+          "platform": "tiktok",
+          "sourceHashtag": "말랑이",
+          "url": "https://www.tiktok.com/@moaticchin/video/7689330096053751060",
+          "author": "moaticchin",
+          "caption": "한 손에 말랑이 최대 몇 개??\n#asmr #squishy #말랑이",
+          "hashtags": [
+            "asmr",
+            "squishy",
+            "말랑이"
+          ],
+          "likes": 1796,
+          "comments": 156,
+          "views": 92600,
+          "postedAt": "2026-09-25T04:48:05.000Z",
+          "thumbnail": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/okVEofZQIhzIggaCorUDfDkjztAFBtfAnS4VQd~tplv-tiktokx-origin.image?dr=9636&x-expires=1792807200&x-signature=7e3XniTVCVxzOYQr5HouacPVcHY%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast5"
+        },
+        {
+          "platform": "tiktok",
+          "sourceHashtag": "말랑이",
+          "url": "https://www.tiktok.com/@jewelryslm/video/7697868731350879508",
+          "author": "jewelryslm",
+          "caption": "말랑이 고수분들 이거 이렇게 만지는 거 맞나요? #말랑이 #물만말 #슬라임 #슬랑이 #fyp ",
+          "hashtags": [
+            "말랑이",
+            "물만말",
+            "슬라임",
+            "슬랑이",
+            "fyp"
+          ],
+          "likes": 1042,
+          "comments": 19,
+          "views": 44000,
+          "postedAt": "2026-10-18T05:02:20.000Z",
+          "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/o0PxhaEIIDAVfNqfpUF4UVr1auKrkIAkDCKjFf~tplv-tiktokx-origin.image?dr=10395&x-expires=1792807200&x-signature=sH2mxnLKIGHm874ylyLUeE7rtt8%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast2b"
+        }
+      ]
+    },
+    {
+      "hashtag": "다이어리꾸미기",
+      "collectedCount": 330,
+      "dropped": {
+        "instagram": {
+          "collected": 30,
+          "noDate": 0,
+          "older": 0,
+          "hiddenLikes": 11,
+          "lowLikes": 19
+        },
+        "tiktok": {
+          "collected": 300,
+          "noDate": 0,
+          "older": 250,
+          "hiddenLikes": 0,
+          "lowLikes": 40
+        }
+      },
+      "postCount": 10,
+      "byPlatform": {
+        "instagram": 0,
+        "tiktok": 10
+      },
+      "keywords": {
+        "hashtags": [
+          {
+            "term": "journaling",
+            "count": 6,
+            "likes": 20371
+          },
+          {
+            "term": "journalwithme",
+            "count": 3,
+            "likes": 14606
+          },
+          {
+            "term": "fyp",
+            "count": 2,
+            "likes": 4226
+          },
+          {
+            "term": "scrapbooking",
+            "count": 2,
+            "likes": 3887
+          },
+          {
+            "term": "journalideas",
+            "count": 1,
+            "likes": 9407
+          },
+          {
+            "term": "halloween",
+            "count": 1,
+            "likes": 9407
+          },
+          {
+            "term": "travelersnotebook",
+            "count": 1,
+            "likes": 9407
+          },
+          {
+            "term": "journalingasmr",
+            "count": 1,
+            "likes": 9407
+          },
+          {
+            "term": "journal",
+            "count": 1,
+            "likes": 8883
+          },
+          {
+            "term": "auraestelle",
+            "count": 1,
+            "likes": 8883
+          },
+          {
+            "term": "stationery",
+            "count": 1,
+            "likes": 8883
+          },
+          {
+            "term": "deco",
+            "count": 1,
+            "likes": 8883
+          },
+          {
+            "term": "wakawaka",
+            "count": 1,
+            "likes": 2993
+          },
+          {
+            "term": "whimsy",
+            "count": 1,
+            "likes": 2993
+          },
+          {
+            "term": "stickerdeco",
+            "count": 1,
+            "likes": 2993
+          },
+          {
+            "term": "추천",
+            "count": 1,
+            "likes": 2749
+          },
+          {
+            "term": "스티커꾸미기",
+            "count": 1,
+            "likes": 2749
+          },
+          {
+            "term": "aesthetic",
+            "count": 1,
+            "likes": 2749
+          },
+          {
+            "term": "kpopdeco",
+            "count": 1,
+            "likes": 2749
+          },
+          {
+            "term": "craftygirl",
+            "count": 1,
+            "likes": 2367
+          },
+          {
+            "term": "junkjournal",
+            "count": 1,
+            "likes": 2367
+          },
+          {
+            "term": "junkjournaling",
+            "count": 1,
+            "likes": 2367
+          },
+          {
+            "term": "asmr",
+            "count": 1,
+            "likes": 2367
+          },
+          {
+            "term": "stickers",
+            "count": 1,
+            "likes": 2206
+          },
+          {
+            "term": "crafting",
+            "count": 1,
+            "likes": 2206
+          },
+          {
+            "term": "spread",
+            "count": 1,
+            "likes": 2020
+          },
+          {
+            "term": "ideas",
+            "count": 1,
+            "likes": 2020
+          },
+          {
+            "term": "journalling",
+            "count": 1,
+            "likes": 1947
+          },
+          {
+            "term": "hobby",
+            "count": 1,
+            "likes": 1947
+          },
+          {
+            "term": "girl",
+            "count": 1,
+            "likes": 1947
+          },
+          {
+            "term": "handmade",
+            "count": 1,
+            "likes": 1947
+          },
+          {
+            "term": "diary",
+            "count": 1,
+            "likes": 1947
+          },
+          {
+            "term": "wonyoung",
+            "count": 1,
+            "likes": 1865
+          },
+          {
+            "term": "yujin",
+            "count": 1,
+            "likes": 1865
+          },
+          {
+            "term": "ive",
+            "count": 1,
+            "likes": 1865
+          },
+          {
+            "term": "dive_cambodia🇰🇷🇭",
+            "count": 1,
+            "likes": 1865
+          },
+          {
+            "term": "fankpop🇰🇷cambodia🇰🇭",
+            "count": 1,
+            "likes": 1865
+          },
+          {
+            "term": "flipthrough",
+            "count": 1,
+            "likes": 1520
+          },
+          {
+            "term": "artjournalpage",
+            "count": 1,
+            "likes": 1520
+          },
+          {
+            "term": "journalpages",
+            "count": 1,
+            "likes": 1520
+          }
+        ],
+        "words": [
+          {
+            "term": "journal",
+            "count": 3,
+            "likes": 7262
+          },
+          {
+            "term": "since",
+            "count": 2,
+            "likes": 18290
+          },
+          {
+            "term": "different",
+            "count": 2,
+            "likes": 18290
+          },
+          {
+            "term": "guys",
+            "count": 2,
+            "likes": 12400
+          },
+          {
+            "term": "it",
+            "count": 2,
+            "likes": 11613
+          },
+          {
+            "term": "fun",
+            "count": 2,
+            "likes": 11613
+          },
+          {
+            "term": "ve",
+            "count": 2,
+            "likes": 3726
+          },
+          {
+            "term": "journaling",
+            "count": 2,
+            "likes": 3540
+          },
+          {
+            "term": "42nd",
+            "count": 1,
+            "likes": 9407
+          },
+          {
+            "term": "weekly",
+            "count": 1,
+            "likes": 9407
+          },
+          {
+            "term": "spread",
+            "count": 1,
+            "likes": 9407
+          },
+          {
+            "term": "traveler's",
+            "count": 1,
+            "likes": 9407
+          },
+          {
+            "term": "notebook",
+            "count": 1,
+            "likes": 9407
+          },
+          {
+            "term": "spooky",
+            "count": 1,
+            "likes": 9407
+          },
+          {
+            "term": "hey",
+            "count": 1,
+            "likes": 9407
+          },
+          {
+            "term": "here's",
+            "count": 1,
+            "likes": 9407
+          },
+          {
+            "term": "another",
+            "count": 1,
+            "likes": 9407
+          },
+          {
+            "term": "stationery",
+            "count": 1,
+            "likes": 9407
+          },
+          {
+            "term": "project",
+            "count": 1,
+            "likes": 9407
+          },
+          {
+            "term": "pan",
+            "count": 1,
+            "likes": 9407
+          },
+          {
+            "term": "halloween",
+            "count": 1,
+            "likes": 9407
+          },
+          {
+            "term": "right",
+            "count": 1,
+            "likes": 9407
+          },
+          {
+            "term": "around",
+            "count": 1,
+            "likes": 9407
+          },
+          {
+            "term": "corner",
+            "count": 1,
+            "likes": 9407
+          },
+          {
+            "term": "made",
+            "count": 1,
+            "likes": 9407
+          },
+          {
+            "term": "about",
+            "count": 1,
+            "likes": 9407
+          },
+          {
+            "term": "as",
+            "count": 1,
+            "likes": 9407
+          },
+          {
+            "term": "know",
+            "count": 1,
+            "likes": 9407
+          },
+          {
+            "term": "love",
+            "count": 1,
+            "likes": 9407
+          },
+          {
+            "term": "incorporating",
+            "count": 1,
+            "likes": 9407
+          },
+          {
+            "term": "interactive",
+            "count": 1,
+            "likes": 9407
+          },
+          {
+            "term": "parts",
+            "count": 1,
+            "likes": 9407
+          },
+          {
+            "term": "spreads",
+            "count": 1,
+            "likes": 9407
+          },
+          {
+            "term": "thought",
+            "count": 1,
+            "likes": 9407
+          },
+          {
+            "term": "could",
+            "count": 1,
+            "likes": 9407
+          },
+          {
+            "term": "add",
+            "count": 1,
+            "likes": 9407
+          },
+          {
+            "term": "sliding",
+            "count": 1,
+            "likes": 9407
+          },
+          {
+            "term": "clear",
+            "count": 1,
+            "likes": 9407
+          },
+          {
+            "term": "plastic",
+            "count": 1,
+            "likes": 9407
+          },
+          {
+            "term": "thingy",
+            "count": 1,
+            "likes": 9407
+          }
+        ],
+        "externalUrls": [
+          {
+            "url": "https://linktr.ee/sara___journal",
+            "count": 1,
+            "posts": [
+              "https://www.tiktok.com/@sara___journal/video/7697925505357532436"
+            ]
+          }
+        ]
+      },
+      "ai": null,
+      "posts": [
+        {
+          "platform": "tiktok",
+          "sourceHashtag": "다이어리꾸미기",
+          "url": "https://www.tiktok.com/@holafaola/video/7695463748256992544",
+          "author": "holafaola",
+          "caption": "42nd weekly spread of my 2026 Traveler's Notebook -  Spooky spread  🎃👻\n\nHey guys! ☺️ Here's another weekly spread for my stationery Project Pan 🥘 \n\nSince Halloween is right around the corner, I made a spooky spread about it 👻 And as you know, I love incorporating interactive parts in my spreads so I thought it could be fun to add a sliding clear plastic thingy where you could see different scenes on the old TV ☺️\n\nThank you all so much for the support and love, I deeply appreciate it ☺️🙏💐 And see you for my next spread 😉\n\n#journalwithme #journalideas #Halloween #travelersnotebook #journalingasmr ",
+          "hashtags": [
+            "journalwithme",
+            "journalideas",
+            "halloween",
+            "travelersnotebook",
+            "journalingasmr"
+          ],
+          "likes": 9407,
+          "comments": 231,
+          "views": 64200,
+          "postedAt": "2026-10-11T17:29:41.000Z",
+          "thumbnail": "https://p16-common-sign.tiktokcdn-us.com/tos-useast2a-p-0037-euttp/o0AA3LEIEDQqyDzfVvFmNXD6Lb23PEA4DCbRAe~tplv-tiktokx-origin.image?dr=9636&x-expires=1792807200&x-signature=3BAoOheWXWFQosx7Lh19Rjzu4iI%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast5"
+        },
+        {
+          "platform": "tiktok",
+          "sourceHashtag": "다이어리꾸미기",
+          "url": "https://www.tiktok.com/@plumeria.cloud/video/7697239448974527774",
+          "author": "plumeria.cloud",
+          "caption": "this is super different than how i usually deco my covers, but i wanted to try something new since this is a leather cover on the aura estelle ❤️✨\n\n@Aura Estelle \n\n#journaling #journal #auraestelle #stationery #deco ",
+          "hashtags": [
+            "journaling",
+            "journal",
+            "auraestelle",
+            "stationery",
+            "deco"
+          ],
+          "likes": 8883,
+          "comments": 35,
+          "views": 53700,
+          "postedAt": "2026-10-16T12:20:53.000Z",
+          "thumbnail": "https://p16-common-sign.tiktokcdn-us.com/tos-useast8-p-0068-tx2/oAG29I1FrIFpHLlIBqheXUMqQN2fCjAeSVICAI~tplv-tiktokx-origin.image?dr=9636&x-expires=1792807200&x-signature=uhpGhMHuVNhojlEagv5XKS0G50M%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8"
+        },
+        {
+          "platform": "tiktok",
+          "sourceHashtag": "다이어리꾸미기",
+          "url": "https://www.tiktok.com/@sushiinosuke/video/7688785649129753874",
+          "author": "sushiinosuke",
+          "caption": "do u guys vibe with this asmr-ish journal w/me vlog? ^w^\n\njournal & sticker from @WaKaWaKa.PH \n—\n#wakawaka #journalwithme #whimsy #stickerdeco #journaling ",
+          "hashtags": [
+            "wakawaka",
+            "journalwithme",
+            "whimsy",
+            "stickerdeco",
+            "journaling"
+          ],
+          "likes": 2993,
+          "comments": 30,
+          "views": 47400,
+          "postedAt": "2026-09-23T17:35:18.000Z",
+          "thumbnail": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/o04xAo3EAVILtA6qAyAQRGzF3fFePtEcBDICgo~tplv-tiktokx-origin.image?dr=9636&x-expires=1792807200&x-signature=FF%2FYfv6Aeh%2BT8WCbNei%2B4OmI5Qw%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8"
+        },
+        {
+          "platform": "tiktok",
+          "sourceHashtag": "다이어리꾸미기",
+          "url": "https://www.tiktok.com/@w.ry09/video/7691580588783947021",
+          "author": "w.ry09",
+          "caption": "late night journal !! ⌨️📓 #추천 #스티커꾸미기 #aesthetic #journaling #kpopdeco ",
+          "hashtags": [
+            "추천",
+            "스티커꾸미기",
+            "aesthetic",
+            "journaling",
+            "kpopdeco"
+          ],
+          "likes": 2749,
+          "comments": 20,
+          "views": 9365,
+          "postedAt": "2026-10-01T06:22:10.000Z",
+          "thumbnail": "https://p19-common-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/osFIRAOQEFApFeAAQGLDIRHbf7fAw5q7SOhfJB~tplv-tiktokx-origin.image?dr=9636&x-expires=1792807200&x-signature=flWmZ0O5Bd6i6nU7fgk02Ygil8k%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8"
+        },
+        {
+          "platform": "tiktok",
+          "sourceHashtag": "다이어리꾸미기",
+          "url": "https://www.tiktok.com/@junkette/video/7697209137100377377",
+          "author": "junkette",
+          "caption": "JE SUIS TATAAAAAA 🤩🤩🤩 je suis trop contente il fallait absolument que j’en fasse une page! 🥹💗 #craftygirl #scrapbooking #junkjournal #junkjournaling #asmr ",
+          "hashtags": [
+            "craftygirl",
+            "scrapbooking",
+            "junkjournal",
+            "junkjournaling",
+            "asmr"
+          ],
+          "likes": 2367,
+          "comments": 25,
+          "views": 16300,
+          "postedAt": "2026-10-16T10:22:44.000Z",
+          "thumbnail": "https://p16-common-sign.tiktokcdn-us.com/tos-useast2a-p-0037-euttp/oclrRmMQBNGQTd0a8RAAAEeXjfH9jpqWff3GY6~tplv-tiktokx-origin.image?dr=9636&x-expires=1792807200&x-signature=RYCcMvf2FViVxz3XOhHVGeD%2FtgA%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8"
+        },
+        {
+          "platform": "tiktok",
+          "sourceHashtag": "다이어리꾸미기",
+          "url": "https://www.tiktok.com/@peachymail/video/7697346847123328286",
+          "author": "peachymail",
+          "caption": "can you believe this is only the second train I’ve ever been on in my life? 😆 it was a fun experience 💕💕\n\n#journalwithme #journaling #stickers #fyp #crafting ",
+          "hashtags": [
+            "journalwithme",
+            "journaling",
+            "stickers",
+            "fyp",
+            "crafting"
+          ],
+          "likes": 2206,
+          "comments": 31,
+          "views": 12000,
+          "postedAt": "2026-10-16T19:17:21.000Z",
+          "thumbnail": "https://p16-common-sign.tiktokcdn-us.com/tos-useast8-p-0068-tx2/o0QRdVqAnHT8SgAkDEQUC0FGwuIBhAftEeE9iE~tplv-tiktokx-origin.image?dr=9636&x-expires=1792807200&x-signature=JJ4HyffKa2jX5u0jKtyW%2FwvobAk%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8"
+        },
+        {
+          "platform": "tiktok",
+          "sourceHashtag": "다이어리꾸미기",
+          "url": "https://www.tiktok.com/@blueoceanblvdd/video/7692659341513608456",
+          "author": "blueoceanblvdd",
+          "caption": "journaling with me (pt.2) after a loOoong time…. ⌛️👀📕 #journaling #spread #ideas #fyp ",
+          "hashtags": [
+            "journaling",
+            "spread",
+            "ideas",
+            "fyp"
+          ],
+          "likes": 2020,
+          "comments": 14,
+          "views": 11200,
+          "postedAt": "2026-10-04T04:07:16.000Z",
+          "thumbnail": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/ooEADIY88QBQHAilIAAKBEam08BBtAxiPjisv~tplv-tiktokx-origin.image?dr=9636&x-expires=1792807200&x-signature=slZRsnlS9b3Y7kUUP4MSgLhejN4%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast5"
+        },
+        {
+          "platform": "tiktok",
+          "sourceHashtag": "다이어리꾸미기",
+          "url": "https://www.tiktok.com/@alina_shneider/video/7694327831697902880",
+          "author": "alina_shneider",
+          "caption": "Как вам результат? 🧸🤎🍂// Не понравились покупные, решила сделать свои!) | tg. inshneider\n\n#journalling #hobby #girl #handmade #diary ",
+          "hashtags": [
+            "journalling",
+            "hobby",
+            "girl",
+            "handmade",
+            "diary"
+          ],
+          "likes": 1947,
+          "comments": 24,
+          "views": 6469,
+          "postedAt": "2026-10-08T16:01:47.000Z",
+          "thumbnail": "https://p19-common-sign.tiktokcdn-us.com/tos-useast2a-p-0037-euttp/owDECAvFiiArqYAoIIpBTaLW91vAez1HQBYvBm~tplv-tiktokx-origin.image?dr=9636&x-expires=1792807200&x-signature=iDmVfTkRKAs9TcqaPq27O3pz4zc%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast5"
+        },
+        {
+          "platform": "tiktok",
+          "sourceHashtag": "다이어리꾸미기",
+          "url": "https://www.tiktok.com/@ahyeon5670/video/7696934297965481224",
+          "author": "ahyeon5670",
+          "caption": "ហ៊ានក្បត់ទៀតអត់ឡូវ🤣🤣#wonyoung #yujin #IVE #dive_cambodia🇰🇷🇭 #fankpop🇰🇷cambodia🇰🇭 ",
+          "hashtags": [
+            "wonyoung",
+            "yujin",
+            "ive",
+            "dive_cambodia🇰🇷🇭",
+            "fankpop🇰🇷cambodia🇰🇭"
+          ],
+          "likes": 1865,
+          "comments": 35,
+          "views": 11900,
+          "postedAt": "2026-10-15T16:36:13.000Z",
+          "thumbnail": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/oAAiXK2BiRA0aGnEN2vUb9BANYEIDtVApU5Pq~tplv-tiktokx-origin.image?dr=9636&x-expires=1792807200&x-signature=235WnPGuzuS3m1j28vbtrjiu%2B%2BA%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast5"
+        },
+        {
+          "platform": "tiktok",
+          "sourceHashtag": "다이어리꾸미기",
+          "url": "https://www.tiktok.com/@sara___journal/video/7697925505357532436",
+          "author": "sara___journal",
+          "caption": "ASMR Art Journal Flip Through | Finished Journal 📖✨Scrapbooking コラージュノート\n\nHello dear! I’m Sara!💕\nI’ve finally filled up this journal!📖\nJoin me for a flip-through of all the art journaling and scrapbooking pages I’ve created, featuring stickers, PET tapes, and more.😊💖\n\n📦 All supplies used in this video are listed here:🔗https://linktr.ee/sara___journal\nYou can also find the link in my profile✨\n\n#journaling #scrapbooking #flipthrough #artjournalpage #journalpages ",
+          "hashtags": [
+            "journaling",
+            "scrapbooking",
+            "flipthrough",
+            "artjournalpage",
+            "journalpages"
+          ],
+          "likes": 1520,
+          "comments": 42,
+          "views": 20000,
+          "postedAt": "2026-10-18T08:42:37.000Z",
+          "thumbnail": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/osDUtcPvIBg1DIEbofRhEAfBDWH4IgzxGGAFFq~tplv-tiktokx-origin.image?dr=9636&x-expires=1792807200&x-signature=ew2nNPwqq68Wgokjh47zD07UfSY%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast5"
+        }
+      ]
+    }
+  ],
+  "accounts": null,
+  "errors": []
+}
